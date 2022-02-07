@@ -1,0 +1,30 @@
+{
+  "name": "http-api-assignment",
+  "version": "1.0.0",
+  "engines":{
+    "npm": "8.4.1",
+    "node":"16.13.2"
+  },
+  "description": "HTTP API ASSIGNMENT",
+  "main": "./src/server.js",
+  "scripts": {
+    "start":"npm start",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests Completed\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pkali076/http-api-assignment.git"
+  },
+  "author": "PHILIP KALINOWSKI",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/pkali076/http-api-assignment/issues"
+  },
+  "homepage": "https://github.com/pkali076/http-api-assignment#readme",
+  "devDependencies": {
+    "eslint": "^8.8.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.25.4"
+  }
+}
